@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="profile.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+        <h2 data-testid="fullName">Abiodun Segun Micheal</h2>
+        <h3 data-testid="jobTitle">Aspiring Front-End Developer</h3>
+        <p data-testid="shortBio">
+            Passionate about creating innovative solutions in front-end development. 
+            Currently expanding my skills in JavaScript and UI/UX design.
+        </p>
+        <p data-testid="currentLocation">Osogbo, Nigeria</p>
+        <p data-testid="emailAddress">abiodunsegun1@gmail.com</p>
+        
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/shigo-phobia" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/segunabiodun" target="_blank">LinkedIn</a>
+        </div>
+
+        <p>Current Time (UTC): <span id="utc-time" data-testid="currentTimeUTC"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
